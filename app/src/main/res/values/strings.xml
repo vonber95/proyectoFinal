@@ -3,4 +3,8 @@
     <string name="player_error">Error initializing YouTube player: %s</string>
     <string name="seek_to">Jump To</string>
     <string name="seek_to_hint">Seconds</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+
+
 </resources>

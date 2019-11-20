@@ -3,8 +3,21 @@ package com.example.proyectofinal;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.Toast;
 import android.content.Intent;
+import android.widget.Toolbar;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.view.Menu;
+import android.os.Bundle;
+
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -12,10 +25,15 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.google.android.youtube.player.YouTubePlayerView;
 
+
+
 public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+
 
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +42,10 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
 
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
+
+
     }
+
 
     @Override
     public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored){
