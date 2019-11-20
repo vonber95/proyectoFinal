@@ -21,9 +21,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"></SearchView>
 
-            <WebView
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube_view"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"></WebView>ç
+                android:layout_height="300dp"></com.google.android.youtube.player.YouTubePlayerView>
 
             <TextView
                 android:layout_width="match_parent"
