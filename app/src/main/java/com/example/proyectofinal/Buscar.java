@@ -48,6 +48,7 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
 
+        //con esta madre se hace el menu
         //codigo para que jale el boton de menu source https://www.youtube.com/watch?v=LXUDqGaToe0
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
