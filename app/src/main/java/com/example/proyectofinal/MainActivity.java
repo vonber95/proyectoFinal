@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private Button Login;
     private int counter = 5;
 
+    //codigo para el pasword y usuarios
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
