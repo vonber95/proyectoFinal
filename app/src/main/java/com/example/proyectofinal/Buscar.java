@@ -37,6 +37,7 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
 
+    //este es el boton menu
     Button button;
 
     @Override
@@ -47,6 +48,7 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
 
+        //codigo para que jale el boton de menu source https://www.youtube.com/watch?v=LXUDqGaToe0
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

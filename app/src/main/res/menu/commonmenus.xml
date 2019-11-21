@@ -12,8 +12,8 @@
         android:id="@+id/mnuOfertas"
         android:title="Ofertas" />
     <item
-        android:id="@+id/mnuConfig"
-        android:title="Configuracion" />
+        android:id="@+id/mnuLogout"
+        android:title="Logout" />
     <item
         android:id="@+id/mnuServideAtenci"
         android:title="Servicio de atencion" />
