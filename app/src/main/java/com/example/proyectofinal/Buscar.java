@@ -4,11 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Toast;
 import android.content.Intent;
 import android.widget.Toolbar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.ButtonBarLayout;
+import androidx.appcompat.widget.PopupMenu;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -33,7 +37,7 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
 
-
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +47,23 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
 
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popupMenu = new PopupMenu(Buscar.this, button);
+                popupMenu.getMenuInflater().inflate(R.menu.commonmenus, popupMenu.getMenu());
 
+                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem item) {
+                        Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
+                        return true;
+                    }
+                });
+                popupMenu.show();
+            }
+        });
     }
 
 

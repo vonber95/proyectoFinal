@@ -17,14 +17,20 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <Button
+                android:id="@+id/button"
+                android:layout_width="109dp"
+                android:layout_height="63dp"
+                android:text="Menu" />
+
             <SearchView
-                android:layout_width="wrap_content"
+                android:layout_width="107dp"
                 android:layout_height="50dp"></SearchView>
 
             <com.google.android.youtube.player.YouTubePlayerView
                 android:id="@+id/youtube_view"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"></com.google.android.youtube.player.YouTubePlayerView>
+                android:layout_height="303dp"></com.google.android.youtube.player.YouTubePlayerView>
 
             <TextView
                 android:layout_width="match_parent"

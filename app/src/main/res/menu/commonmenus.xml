@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuInicio"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/mnuExploraEstilos"
+        android:title="Explora Estilos" />
+    <item
+        android:id="@+id/mnuOfertas"
+        android:title="Ofertas" />
+    <item
+        android:id="@+id/mnuConfig"
+        android:title="Configuracion" />
+    <item
+        android:id="@+id/mnuServideAtenci"
+        android:title="Servicio de atencion" />
+    <item
+        android:id="@+id/mnuMas"
+        android:title="Mas..." />
+</menu>
