@@ -53,13 +53,40 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                PopupMenu popupMenu = new PopupMenu(Buscar.this, button);
+                final PopupMenu popupMenu = new PopupMenu(Buscar.this, button);
                 popupMenu.getMenuInflater().inflate(R.menu.commonmenus, popupMenu.getMenu());
 
                 popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     @Override
                     public boolean onMenuItemClick(MenuItem item) {
-                        Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
+                        /*Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
+*/
+                        switch (item.getItemId()) {
+                            //si te quieres ir a actividad mainmenu al seleccionar logout
+                            case R.id.mnuLogout:
+                                Intent launchNewIntent = new Intent(Buscar.this , MainActivity.class);
+                                startActivityForResult(launchNewIntent, 0);
+                                Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
+                                return true;
+                            case R.id.mnuInicio:
+                                Intent launchNewIntent1 = new Intent(Buscar.this , Buscar.class);
+                                startActivityForResult(launchNewIntent1, 0);
+                                Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
+                                return true;
+                            case R.id.mnuOfertas:
+                                Intent launchNewIntent2 = new Intent(Buscar.this , Buscar.class);
+                                startActivityForResult(launchNewIntent2, 0);
+                                Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
+                                return true;
+                            case R.id.mnuExploraEstilos:
+                                Intent launchNewIntent3 = new Intent(Buscar.this , Artista.class);
+                                startActivityForResult(launchNewIntent3, 0);
+                                Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
+                                return true;
+
+                            default: Toast.makeText(Buscar.this, "Algo paso", Toast.LENGTH_SHORT).show();
+                        }
+
                         return true;
                     }
                 });

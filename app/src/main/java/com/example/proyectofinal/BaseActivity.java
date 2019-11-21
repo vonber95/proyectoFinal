@@ -32,8 +32,8 @@ public class BaseActivity extends AppCompatActivity {
 
         if (id==R.id.mnuLogout)
         {
-            Toast.makeText(this, "Logout is Clicked", Toast.LENGTH_SHORT).show();
             startActivity(new Intent(this, MainActivity.class));
+            Toast.makeText(this, "Logout is Clicked", Toast.LENGTH_SHORT).show();
 
         }
         else if (id==R.id.mnuExploraEstilos)
