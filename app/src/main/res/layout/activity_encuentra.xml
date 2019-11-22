@@ -25,16 +25,21 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    android:contentDescription="TODO"
+                    tools:srcCompat="@tools:sample/avatars" />
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars[0]" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,16 +53,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars" />
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -71,16 +80,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars" />
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -94,16 +107,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars" />
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -117,16 +134,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars" />
+
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_margin="80dp"
-                    android:layout_gravity="center"/>
+                    tools:srcCompat="@tools:sample/avatars" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
