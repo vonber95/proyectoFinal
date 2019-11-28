@@ -61,7 +61,7 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
                     @Override
                     public boolean onMenuItemClick(MenuItem item) {
                         /*Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
-*/
+                         */
                         switch (item.getItemId()) {
                             //si te quieres ir a actividad mainmenu al seleccionar logout
                             case R.id.mnuLogout:
@@ -80,7 +80,7 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
                                 Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
                                 return true;
                             case R.id.mnuExploraEstilos:
-                                Intent launchNewIntent3 = new Intent(Buscar.this , Artista.class);
+                                Intent launchNewIntent3 = new Intent(Buscar.this , ArtistMain.class);
                                 startActivityForResult(launchNewIntent3, 0);
                                 Toast.makeText(Buscar.this, ""+ item.getTitle(), Toast.LENGTH_SHORT).show();
                                 return true;

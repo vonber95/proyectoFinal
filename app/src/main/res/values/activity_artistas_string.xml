@@ -1,0 +1,23 @@
+
+
+<resources>
+
+<string-array name="artista1_array">
+<item>Nombre Artista Numero 1 </item>
+<item>Especialidad Artista Numero 1</item>
+<item>años Artista Numero 1</item>
+</string-array>
+
+<string-array name="artista2_array">
+<item>Nombre Artista Numero 2 </item>
+<item>Especialidad Artista Numero 2</item>
+<item>años Artista Numero 2</item>
+</string-array>
+
+<string-array name="artista3_array">
+<item>Nombre Artista Numero 3 </item>
+<item>Especialidad Artista Numero 3</item>
+<item>años Artista Numero 3</item>
+</string-array>
+</resources>
+
