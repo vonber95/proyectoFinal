@@ -96,7 +96,7 @@ public class Buscar extends YouTubeBaseActivity implements YouTubePlayer.OnIniti
     public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored){
         if(!wasRestored){
             //Cambiar esto para el video que se necesite
-            player.cueVideo("fhWaJi1Hsfo");  // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            player.cueVideo("RqKDW-moB8s");  // Plays https://www.youtube.com/watch?v=RqKDW-moB8s
         }
     }
 

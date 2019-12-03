@@ -31,13 +31,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="262dp" />
 
+            <TextView
+                android:id="@+id/Fav"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:text="Presiona para agregar a favoritos"
+                android:layout_margin="10dp"
+                android:textSize="20dp" />
+
             <ImageButton
                 android:id="@+id/imageB"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
-                android:layout_margin="50dp"
+                android:layout_margin="5dp"
                 android:drawable="@drawable/ic_heart_empty"></ImageButton>
+
+            <TextView
+                android:id="@+id/descArtista"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal"
+                android:text="Este artista es experto en caricaturas con más de 5 años de experiencia trabajando en el mundo del arte. Le gusta hacer cada caricatura con un toque personal pero divertido. ¡No te arrepentirás!"
+                android:layout_margin="25dp"
+                android:textSize="15dp" />
+
         </LinearLayout>
     </ScrollView>
 
