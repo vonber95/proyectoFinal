@@ -48,22 +48,7 @@ public class BaseActivity extends AppCompatActivity {
             startActivity(new Intent(this, Buscar.class));
 
         }
-        else if (id==R.id.mnuMas)
-        {
-            Toast.makeText(this, "Mas.. menu is Clicked, no hay mas", Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(this, Buscar.class));
 
-        }
-        else if (id==R.id.mnuOfertas)
-        {
-            Toast.makeText(this, "Ofertas menu is Clicked", Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(this, Buscar.class));
-
-        }
-        else if (id==R.id.mnuServideAtenci)
-        {
-            Toast.makeText(this, "Servicio de atencion menu is Clicked", Toast.LENGTH_SHORT).show();
-        }
 
         return super.onOptionsItemSelected(item);
     }

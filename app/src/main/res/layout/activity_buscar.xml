@@ -34,14 +34,20 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="65dp"
+                android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="@string/app_name"
                 android:textSize="20dp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En esta aplicacion podras ver un video introductorio a los caricaturistas en mexico. Seleccionar caricaturistas y elegir tus favoritos!" />
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="120dp">
+                android:layout_height="94dp">
 
                 <ImageView
                     android:id="@+id/imagev_1"
@@ -55,14 +61,14 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:layout_margin="40dp"/>
+                    android:layout_margin="40dp" />
 
                 <ImageView
                     android:id="@+id/imagev_3"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:layout_margin="40dp"/>
+                    android:layout_margin="40dp" />
             </LinearLayout>
 
             <LinearLayout
